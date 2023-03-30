@@ -1,0 +1,20 @@
+{
+
+	"admin" :{
+		"first" : "admin",
+		"last" : "admin",
+		"password" : "12345"
+	},
+	"admin2" :{
+		"first" : "admin2",
+		"last" : "admin2",
+		"password" : "12345"
+	},
+
+	"carat" :{
+		"first" : "seventeen's",
+		"last" : "carat",
+		"password" : "0526"
+	}
+		
+}

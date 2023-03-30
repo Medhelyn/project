@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Click Handler</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		function handler(event) {
+			$("#buttons").offset({left : event.pageX += (Math.floor(Math.random()*50) - Math.floor(Math.random()*50)), top : event.pageY += (Math.floor(Math.random()*50) - Math.random()*50)});
+		}
+		  function geser() {
+            $(`#buttons`).mouseenter(handler);
+        }
+        function pacaran() {
+            alert("Oke now you are mine!")
+        }
+	</script>
+</head>
+<body>
+	<h1>Mau jadi pacar aku gaa?</h1>
+	<h2><img src="ch_kwan.jpg" style="width:100px;"></h2>
+	<button onclick="pacaran()">maooo</button>
+	<button id="buttons" onmouseenter="geser()">ga</button>
+</body>
+</html>
